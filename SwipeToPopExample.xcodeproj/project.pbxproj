@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9131C7C51C7D8D3B00F0B846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131C7C41C7D8D3B00F0B846 /* AppDelegate.swift */; };
-		9131C7C71C7D8D3B00F0B846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131C7C61C7D8D3B00F0B846 /* ViewController.swift */; };
 		9131C7CA1C7D8D3B00F0B846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9131C7C81C7D8D3B00F0B846 /* Main.storyboard */; };
 		9131C7CC1C7D8D3B00F0B846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9131C7CB1C7D8D3B00F0B846 /* Assets.xcassets */; };
 		9131C7CF1C7D8D3B00F0B846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9131C7CD1C7D8D3B00F0B846 /* LaunchScreen.storyboard */; };
+		9131C7D71C7D923500F0B846 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131C7D61C7D923500F0B846 /* NavigationController.swift */; };
+		9131C7D91C7D991200F0B846 /* SwipeToPopTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9131C7D81C7D991200F0B846 /* SwipeToPopTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9131C7C11C7D8D3A00F0B846 /* SwipeToPopExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeToPopExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9131C7C41C7D8D3B00F0B846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9131C7C61C7D8D3B00F0B846 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9131C7C91C7D8D3B00F0B846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9131C7CB1C7D8D3B00F0B846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9131C7CE1C7D8D3B00F0B846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9131C7D01C7D8D3B00F0B846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9131C7D61C7D923500F0B846 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
+		9131C7D81C7D991200F0B846 /* SwipeToPopTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeToPopTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				9131C7C41C7D8D3B00F0B846 /* AppDelegate.swift */,
-				9131C7C61C7D8D3B00F0B846 /* ViewController.swift */,
 				9131C7C81C7D8D3B00F0B846 /* Main.storyboard */,
+				9131C7D61C7D923500F0B846 /* NavigationController.swift */,
+				9131C7D81C7D991200F0B846 /* SwipeToPopTransition.swift */,
 				9131C7CB1C7D8D3B00F0B846 /* Assets.xcassets */,
 				9131C7CD1C7D8D3B00F0B846 /* LaunchScreen.storyboard */,
 				9131C7D01C7D8D3B00F0B846 /* Info.plist */,
@@ -135,7 +138,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9131C7C71C7D8D3B00F0B846 /* ViewController.swift in Sources */,
+				9131C7D71C7D923500F0B846 /* NavigationController.swift in Sources */,
+				9131C7D91C7D991200F0B846 /* SwipeToPopTransition.swift in Sources */,
 				9131C7C51C7D8D3B00F0B846 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +288,7 @@
 				9131C7D51C7D8D3B00F0B846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
